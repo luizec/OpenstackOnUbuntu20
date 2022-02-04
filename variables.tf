@@ -4,5 +4,5 @@ variable "region" {
 }
 
 variable "keyPath" {
-   default = "C:\\Users\\lzeccardo\\Documents\\CaseStudy_Cloud\\terraform\\openstackinstance\\OSscriptKey.pem"
+   default = "C:\\terraform\\openstackinstance\\OSscriptKey.pem"
 }
