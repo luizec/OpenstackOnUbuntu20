@@ -94,7 +94,7 @@ resource "aws_instance" "openstack" {
   
   ##script start
   provisioner "file" {
-    source      = "C:\\Users\\lzeccardo\\Documents\\CaseStudy_Cloud\\terraform\\openstackinstance\\OpStInstallScript.sh"  ##double \ is needed only if source system of the file is windows
+    source      = "C:\\terraform\\openstackinstance\\OpStInstallScript.sh"  ##double \ is needed only if source system of the file is windows
     destination = "/tmp/OpStInstallScript.sh"
   }
   
